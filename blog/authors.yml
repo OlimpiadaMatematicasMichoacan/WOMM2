@@ -1,0 +1,23 @@
+omm:
+  name: Olimpiada Michoacana de Matemáticas
+  title: Delegados de la OMM
+  url: https://github.com/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: omm
+    linkedin: omm
+    github: omm
+    newsletter: https://olimpiadamatematicasmichoacan.org
+
+roicort:
+  name: Rodrigo Cortez
+  title: Maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/rodrigo-cortez'
+  socials:
+    github: 'roicort'
+    newsletter: https://roicort.github.io
