@@ -1,0 +1,22 @@
+/* filepath: /Users/roicort/GitHub/WOMM2/src/components/Testimonials.module.css */
+.testimonials {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .testimonialList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .testimonial {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial h4 {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
