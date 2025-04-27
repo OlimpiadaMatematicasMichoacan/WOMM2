@@ -76,6 +76,7 @@ const config: Config = {
         { to: '/blog/tags/resultados', label: 'Resultados', position: 'right' },
         { to: '/blog/tags/convocatoria', label: 'Convocatoria', position: 'right' },
         { to: '/blog', label: 'Noticias', position: 'right' },
+        { to: '/blog/authors', label: 'Equipo', position: 'right' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',

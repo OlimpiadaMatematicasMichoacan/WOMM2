@@ -1,8 +1,8 @@
 omm:
   name: Olimpiada Michoacana de Matemáticas
   title: Delegados de la OMM
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+  url: https://github.com/OlimpiadaMatematicasMichoacan
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
   page: true
   socials:
     x: omm
@@ -15,9 +15,9 @@ roicort:
   title: Maintainer
   url: https://roicort.github.io
   image_url: https://github.com/roicort.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/rodrigo-cortez'
+  #page:
+  #  # customize the url of the author page at /blog/authors/<permalink>
+  #  permalink: '/rodrigo-cortez'
   socials:
     github: 'roicort'
     newsletter: https://roicort.github.io
@@ -25,3 +25,181 @@ roicort:
 mraggi:
   name: Miguel Raggi
   title: Delegado 
+  image_url: https://github.com/mraggi.png
+  socials:
+    github: 'mraggi'
+    linkedin: 'mraggi'
+    newsletter: https://mraggi.github.io
+
+maria_del_rio:
+  name: "María del Río"
+  title: "Codelegada, Coordinadora Físico-Matemáticas ENES"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+maria_luisa_perez:
+  name: "María Luisa Pérez"
+  title: "Profesora UMSNH"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+nelly_selem:
+  name: "Nelly Selem"
+  title: "Investigadora, Centro de Ciencias Matemáticas"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+edgardo_roldan:
+  name: "Edgardo Roldán"
+  title: "Investigador, Centro de Ciencias Matemáticas"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+manuel_espinoza:
+  name: "Manuel Alejandro Espinoza"
+  title: "Estudiante Doctoral CCM, ex-olímpico"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+alondra_juarez:
+  name: "Alondra Juárez"
+  title: "Artista, Diseñadora, Ex-olímpica"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+bialy_calderon:
+  name: "Bialy Calderón Magaña"
+  title: "Relaciones Públicas, Ex-olímpica, Estudiante LTICs"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+arnoldo_chue:
+  name: "Arnoldo Chue"
+  title: "Estudiante de LTICs, 6to semestre / Servicio Social"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+ashley_aguilar:
+  name: "Ashley Aguilar"
+  title: "Estudiante de LTICs, 8avo semestre / Servicio Social"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+gerardo_zabdiel:
+  name: "Gerardo Zabdiel Martinez"
+  title: "Estudiante de LTICs, 6to semestre / Servicio Social"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+mariana_cabrera:
+  name: "Mariana Cabrera Vázquez"
+  title: "Difusión CSAM"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+erandi_torres:
+  name: "Erandi Torres Martínez"
+  title: "Difusión CSAM"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+# Entrenadores
+luis_miguel_garcia:
+  name: "Luis Miguel García"
+  title: "Profesor ENES, ex-olímpico"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+jorge_luis_lopez:
+  name: "Jorge Luis López López"
+  title: "Profesor UMSNH"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+adriana_menchaca:
+  name: "Adriana Menchaca"
+  title: "Profesora, ENES Morelia"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+hector_alonso_guzman:
+  name: "Héctor Alonso Guzmán"
+  title: "Profesor, ENES Morelia"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+paola_gonzalez:
+  name: "Paola González"
+  title: "Graduada LTICs, ENES Morelia"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+kaori_urena:
+  name: "Kaori Ureña"
+  title: "Ex-olímpica, Selección Michoacana"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+miguel_rangel:
+  name: "Miguel Rangel Castillo"
+  title: "Ex-olímpico, Selección Michoacana"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+alexis_aguilar:
+  name: "Alexis Aguilar"
+  title: "Estudiante de LTICs, 2do semestre / Ex-olímpico, Selección Michoacana"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+luis_alberto_garcia:
+  name: "Luis Alberto García"
+  title: "Estudiante de LTICs, 2do semestre / Ex-olímpico, Selección Michoacana"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+alinne_solano:
+  name: "Alinne Solano"
+  title: "Profesora, ENES Morelia"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+marisol_flores:
+  name: "Marisol Flores"
+  title: "Profesora, ENES Morelia"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+# Ex-miembros
+
+ismael_olvera:
+  name: "Ismael Olvera"
+  title: "Estudiante LTICs ENES - IT Consultant"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+jazmin_lopez:
+  name: "Jazmín López Chacón"
+  title: "Estudiante, Tecnologías para la Información en Ciencias"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+alex_martinez:
+  name: "Alex Martínez"
+  title: "Estudiante de matemáticas. Ex-olímpico"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+cesar_corral:
+  name: "César Corral"
+  title: "Estudiante"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+antonio_montero:
+  name: "Antonio Montero"
+  title: "Posdoc UNAM"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+ruben_maldonado:
+  name: "Rubén Maldonado"
+  title: "Estudiante"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+eduardo_ceja:
+  name: "Eduardo Ceja"
+  title: "Egresado LTICs / Servicio Social"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+saul_armas:
+  name: "Saul Armas"
+  title: "Egresado LTICs / Servicio Social"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+francisco_fonseca:
+  name: "Francisco Fonseca"
+  title: "Egresado LTICs / Servicio Social"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+mirna_gomez:
+  name: "Mirna Gómez"
+  title: "Profesora, ENES Morelia"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
+
+eric_pauli:
+  name: "Eric Pauli"
+  title: "Doctor en Matemáticas"
+  image_url: https://github.com/OlimpiadaMatematicasMichoacan.png
