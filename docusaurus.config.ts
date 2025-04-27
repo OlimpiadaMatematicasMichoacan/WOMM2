@@ -27,8 +27,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
@@ -65,13 +65,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'OMM',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'OMM',
+        src: 'img/logo.png',
       },
       items: [
         { to: '/acerca', label: 'Acerca', position: 'right' },
@@ -83,11 +81,6 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'right',
           label: 'Prepárate',
-        },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
@@ -108,15 +101,15 @@ const config: Config = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/omm',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/omm',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/omm',
             },
           ],
         },
@@ -129,12 +122,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/omm/womm2',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} OMM. Hecho en Morelia con OSS y ❤️ por Roicort`,
+      copyright: `Copyright © ${new Date().getFullYear()} OMM. </br> Hecho en México por <a href="https://roicort.github.io">Rodrigo Cortez</a> con OSS y ❤️.`,
     },
     prism: {
       theme: prismThemes.github,
