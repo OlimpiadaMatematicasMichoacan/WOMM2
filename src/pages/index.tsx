@@ -9,6 +9,8 @@ import clsx from 'clsx';
 
 import styles from './index.module.css';
 
+import Testimonials from '@site/src/components/HomepageTestimonials';
+import Sponsors from '@site/src/components/HomepageSponsors';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -21,13 +23,6 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
       </div>
 
       <HomepageBackground />
@@ -44,15 +39,18 @@ export default function Home(): ReactNode {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
+      <div className={clsx(styles.heroCanvas)}>
       <HomepageHeader />
+      </div>
       <main>
-          <div className={styles.mainContent}>
-            <h1>Bienvenido a OMM</h1>
-            <p>
+          <div className="padding--xl text--center">
+            <p className="hero__subtitle">
             El objetivo de la Olimpiada de Matemáticas es promover el estudio de las matemáticas en forma creativa, lógica y divertida, buscando desarrollar el razonamiento y la imaginación.
             </p>
           </div>
         <HomepageFeatures />
+        <Testimonials />
+        <Sponsors />
       </main>
     </Layout>
   );
