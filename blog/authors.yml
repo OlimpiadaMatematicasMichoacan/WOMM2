@@ -13,11 +13,15 @@ omm:
 roicort:
   name: Rodrigo Cortez
   title: Maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  url: https://roicort.github.io
+  image_url: https://github.com/roicort.png
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/rodrigo-cortez'
   socials:
     github: 'roicort'
     newsletter: https://roicort.github.io
+
+mraggi:
+  name: Miguel Raggi
+  title: Delegado 

@@ -1,6 +1,7 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
+slug: resultados
+date: 2025-05-29
+title: Resultados 2025
 authors: omm
 tags: [resultados]
 ---

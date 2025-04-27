@@ -1,6 +1,7 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: new
+title: Nueva look, nueva web
+date: 2025-05-29
 authors: [omm, roicort]
 tags: [noticia]
 ---
