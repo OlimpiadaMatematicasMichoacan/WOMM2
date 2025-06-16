@@ -1,0 +1,32 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.featureCard {
+  background: var(--ifm-color-primary-lighter);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  padding: 2.5rem 2rem;
+  margin: 1.5rem 0;
+  transition: box-shadow 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+[data-theme='dark'] .featureCard {
+  background: var(--ifm-color-primary-darker);
+}
+
+.features .row {
+  align-items: stretch;
+}

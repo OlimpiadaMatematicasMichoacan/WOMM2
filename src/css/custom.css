@@ -1,0 +1,38 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* Paleta moderna, suave y accesible */
+:root {
+  --ifm-color-primary: #7DD3FC; /* Azul pastel */
+  --ifm-color-primary-dark: #38BDF8;
+  --ifm-color-primary-darker: #0EA5E9;
+  --ifm-color-primary-darkest: #0369A1;
+  --ifm-color-primary-light: #A7F3D0; /* Verde pistache */
+  --ifm-color-primary-lighter: #DDD6FE; /* Lila suave */
+  --ifm-color-primary-lightest: #FDE68A; /* Amarillo mantequilla */
+  --ifm-color-secondary: #FDBA74; /* Naranja suave */
+  --docusaurus-highlighted-code-line-bg: #F8FAFC;
+  --ifm-navbar-background-color: #F8FAFCcc;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #DDD6FE; /* Lila suave para dark mode */
+  --ifm-color-primary-dark: #209fda;
+  --ifm-color-primary-darker: #1175a0;
+  --ifm-color-primary-darkest: #10658d;
+  --ifm-color-primary-light: #A7F3D0;
+  --ifm-color-primary-lighter: #FDE68A;
+  --ifm-color-primary-lightest: #FDBA74;
+  --ifm-color-secondary: #7DD3FC;
+  --docusaurus-highlighted-code-line-bg: #0F172A;
+  --ifm-navbar-background-color: #0F172Acc;
+}
+
+.nav{
+  min-height: 128px;
+}

@@ -1,0 +1,24 @@
+noticia:
+  label: Noticia
+  permalink: /noticias
+  description: Noticias tag description
+
+resultado:
+  label: Resultado
+  permalink: /resultados
+  description: Resultados tag description
+
+convocatoria:
+  label: Convocatoria
+  permalink: /convocatorias
+  description: Convocatoria tag description
+
+evento:
+  label: Evento
+  permalink: /eventos
+  description: Eventos tag description
+
+testimonio:
+  label: Testimonio
+  permalink: /testimonios
+  description: Testimonio tag description

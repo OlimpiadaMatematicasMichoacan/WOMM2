@@ -1,0 +1,44 @@
+backend:
+  name: github
+  repo: OlimpiadaMatematicasMichoacan/WOMM2
+  branch: content # Branch to update (main, master, etc.)
+
+media_folder: "static/img"
+public_folder: "/img/"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    identifier_field: title
+    extension: md
+    widget: "list"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        options:
+          - { label: "Noticia", value: "noticia" }
+          - { label: "Resultado", value: "resultado" }
+          - { label: "Convocatoria", value: "convocatoria" }
+          - { label: "Evento", value: "evento" }
+          - { label: "Testimonio", value: "testimonio" }
+        multiple: true
+        required: true
+      - label: "Autores"
+        name: "authors"
+        widget: "select"
+        options:
+          - { label: "Olimpiada Michoacana de Matemáticas", value: "omm" }
+          - { label: "Rodrigo Cortez", value: "roicort" }
+          - { label: "Miguel Raggi", value: "mraggi" }
+          - { label: "María del Río", value: "maria_del_rio" }
+          - { label: "María Luisa Pérez", value: "maria_luisa_perez" }
+        multiple: true
+        required: true

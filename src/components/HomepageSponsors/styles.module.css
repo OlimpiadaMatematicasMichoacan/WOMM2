@@ -1,0 +1,27 @@
+
+.sponsors {
+  text-align: center;
+  padding: 2rem;
+}
+
+.carousel {
+  margin: 0 auto;
+}
+
+.sponsor {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.sponsor h4 {
+  font-weight: bold;
+}
