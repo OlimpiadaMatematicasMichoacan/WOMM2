@@ -4,6 +4,8 @@ sidebar_position: 5
 
 # Canguro Matemático Mexicano
 
+El Canguro Matemático Mexicano es un concurso internacional de matemáticas que se celebra anualmente en México. Está diseñado para estudiantes de diferentes niveles educativos, desde primaria hasta preparatoria, y busca fomentar el interés por las matemáticas a través de la resolución de problemas desafiantes.
+
 ## Recursos disponibles
 
 

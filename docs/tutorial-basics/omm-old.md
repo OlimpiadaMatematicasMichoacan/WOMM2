@@ -4,6 +4,8 @@ sidebar_position: 6
 
 # Antigua Página de la Olimpiada Mexicana de Matemáticas
 
+Aqui podrás encontrar recursos y materiales de la Olimpiada Mexicana de Matemáticas (OMM) que han sido recopilados a lo largo de los años. Aunque algunos de estos recursos pueden estar desactualizados, siguen siendo útiles para la preparación y el estudio de las matemáticas competitivas.
+
 ## Recursos disponibles
 
 - [**Exámenes finales previos**](https://shi.matmor.unam.mx/omm/recursos/final/previos/): Incluyen los exámenes finales enviados en años pasados a los estados.

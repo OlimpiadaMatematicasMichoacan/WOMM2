@@ -6,9 +6,10 @@ tags:
 authors:
   - omm
 ---
+
 Morelia, Michoacán.- Un grupo de jóvenes estudiantes que representó al estado de Michoacán en el IV Concurso Nacional Femenil de la Olimpiada Mexicana de Matemáticas obtuvo resultados sobresalientes en la justa nacional, celebrada del 8 al 13 de junio, en el estado de Guanajuato.
 
-
+`<!-- truncate -->`
 
 El concurso se realizó en 2 categorías: Nivel 2 para segundo y tercero de preparatoria, y el Nivel 1, en el que participaron estudiantes de tercero de secundaria y primer año de preparatoria.
 
