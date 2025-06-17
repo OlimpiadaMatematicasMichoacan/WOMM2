@@ -11,24 +11,20 @@ const sponsors = [
     Svg: require('@site/static/sponsors/unam.svg').default,
   },
   {
+    name: 'ENES MORELIA',
+    Svg: require('@site/static/sponsors/enes.svg').default,
+  },
+  {
     name: 'UMSNH',
     Svg: require('@site/static/sponsors/umsnh.svg').default,
   },
   {
     name: 'CCM',
-    Svg: require('@site/static/sponsors/unam.svg').default,
+    Svg: require('@site/static/sponsors/ccm.svg').default,
   },
     {
-    name: 'UMSNH',
-    Svg: require('@site/static/sponsors/umsnh.svg').default,
-  },
-    {
-    name: 'UMSNH',
-    Svg: require('@site/static/sponsors/umsnh.svg').default,
-  },
-    {
-    name: 'UMSNH',
-    Svg: require('@site/static/sponsors/umsnh.svg').default,
+    name: 'Canguro Matemático Mexicano',
+    Svg: require('@site/static/sponsors/canguro.svg').default,
   },
 ];
 
