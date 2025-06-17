@@ -2,46 +2,12 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción
 
-Let's discover **Docusaurus in less than 5 minutes**.
+¡Bienvenido a la Olimpiada Michoacana de Matemáticas!
 
-## Getting Started
+En esta sección encontrarás una guía para prepararte para la Olimpiada Mexicana de Matemáticas (OMM). Aquí te proporcionamos recursos y consejos para que puedas comenzar tu viaje en el mundo de las matemáticas competitivas.
 
-Get started by **creating a new site**.
+## Importante saber 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<div class="content"><h5 id="en-la-olimpiada-de-matemáticas-los-problemas-se-resuelven-con-ingenio-imaginación-y-creatividad-más-que-con-técnicas">En la Olimpiada de Matemáticas, los problemas se resuelven con <span style="color:green">ingenio</span>, <span style="color:orange">imaginación</span> y <span style="color:red">creatividad</span>, más que con técnicas.</h5><h5 id="entrenar-para-la-olimpiada-de-matemáticas-significa-principalmente-intentar-resolver-problemas-y-acertijos-matemáticos">Entrenar para la Olimpiada de Matemáticas significa, principalmente, intentar resolver problemas y acertijos matemáticos.</h5><p>Resolver muchos problemas, cada vez más difíciles, es la mejor manera de entrenar. ¿Dónde encuentras problemas?</p><p>Aquí encontrarás algunos materiales que puedes usar para prepararte para el examen, o, si eres profesor, ayudar a tus alumnos a prepararse. No dudes en <a href="mailto:olimpiada.omm@gmail.com">contactarnos</a> con cualquier duda.</p><h3 id="recursos-en-línea-michoacán">Recursos en línea: Michoacán</h3><p>Si es la primera vez que participas en las olimpiadas, te recomendamos <a href="https://registro.olimpiadamatematicasmichoacan.org:8443/login/signup.php?">registrarte</a> en el sistema de entrenamiento. Al registrarte, quedarás automáticamente inscrito en un <span style="color:red">curso</span> de preparación, en donde podrás resolver los exámenes de práctica, para familiarizarte con este tipo de problemas. ¡Incluye respuestas y soluciones! Vienen exámenes de práctica, así como exámenes iniciales del año anterior que puedes resolver para practicar.</p><p>Posteriormente, en el curso hay varias lecciones en video (acompañados de ejercicios y problemas) que enseñan algunos conceptos básicos que podrían ayudarte a pensar mejor.</p><center><a href="https://registro.olimpiadamatematicasmichoacan.org:8443/course/view.php?id=8" class="btn btn-xs btn-primary">Acceder al Curso</a></center><p>Al avanzar en el proceso de la Olimpiada, tendrás acceso a entrenamientos y materiales más avanzados.</p><p>Esperamos que este año podamos organizar algunos entrenamientos presenciales en algunas localidades de Michoacán. Más información al respecto se enviará al correo de quienes califiquen en los exámenes iniciales. Por mientras, puedes ponerte de acuerdo con tus amistades, familiares, profes, etc. para revisar juntos los entrenamientos. ¡Es más divertido resolver problemas con otras personas!</p><h3 id="recursos-externos">
