@@ -151,6 +151,10 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  future: {
+    v4: true, // Enable future Docusaurus v4 features
+    experimental_faster: true,
+  },
 };
 
 export default config;
