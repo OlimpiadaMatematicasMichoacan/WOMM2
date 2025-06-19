@@ -159,6 +159,7 @@ const config: Config = {
     v4: true, // Enable future Docusaurus v4 features
     experimental_faster: true,
   },
+  plugins: [require.resolve('docusaurus-lunr-search')],
 };
 
 export default config;
