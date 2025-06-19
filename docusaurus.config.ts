@@ -72,7 +72,7 @@ const config: Config = {
       },
       items: [
         { to: '/blog/authors', label: 'Acerca', position: 'right' },
-        { to: '/convocatorias', label: 'Convocatoria', position: 'right' },
+        { to: '/convocatoria', label: 'Convocatoria', position: 'right' },
         { to: '/blog/tags/noticias', label: 'Noticias', position: 'right' },
         { to: '/blog/tags/resultados', label: 'Resultados', position: 'right' },
         {
