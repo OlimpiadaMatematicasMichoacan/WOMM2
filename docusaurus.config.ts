@@ -71,10 +71,10 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        { to: '/blog/tags/resultados', label: 'Resultados', position: 'right' },
-        { to: '/blog/tags/convocatoria', label: 'Convocatoria', position: 'right' },
-        { to: '/blog/tags/noticias', label: 'Noticias', position: 'right' },
         { to: '/blog/authors', label: 'Acerca', position: 'right' },
+        { to: '/convocatoria', label: 'Convocatoria', position: 'right' },
+        { to: '/blog/tags/resultados', label: 'Resultados', position: 'right' },
+        { to: '/blog/tags/noticias', label: 'Noticias', position: 'right' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',

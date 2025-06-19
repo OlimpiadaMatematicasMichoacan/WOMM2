@@ -26,9 +26,6 @@ collections:
         options:
           - { label: "Noticia", value: "noticia" }
           - { label: "Resultado", value: "resultado" }
-          - { label: "Convocatoria", value: "convocatoria" }
-          - { label: "Evento", value: "evento" }
-          - { label: "Testimonio", value: "testimonio" }
         multiple: true
         required: true
       - label: "Autores"
@@ -36,9 +33,9 @@ collections:
         widget: "select"
         options:
           - { label: "Olimpiada Michoacana de Matemáticas", value: "omm" }
-          - { label: "Rodrigo Cortez", value: "roicort" }
           - { label: "Miguel Raggi", value: "mraggi" }
           - { label: "María del Río", value: "maria_del_rio" }
           - { label: "María Luisa Pérez", value: "maria_luisa_perez" }
+          - { label: "Rodrigo Cortez", value: "roicort" }
         multiple: true
         required: true
