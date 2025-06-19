@@ -71,10 +71,9 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        { to: '/acerca', label: 'Acerca', position: 'right' },
-        { to: '/blog/authors', label: 'Equipo', position: 'right' },
+        { to: '/blog/authors', label: 'Acerca', position: 'right' },
+        { to: '/convocatorias', label: 'Convocatoria', position: 'right' },
         { to: '/blog/tags/noticias', label: 'Noticias', position: 'right' },
-        { to: '/blog/tags/convocatorias', label: 'Convocatoria', position: 'right' },
         { to: '/blog/tags/resultados', label: 'Resultados', position: 'right' },
         {
           type: 'docSidebar',
