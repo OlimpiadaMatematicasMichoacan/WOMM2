@@ -1,21 +1,21 @@
-import React, {type ReactNode} from 'react';
+import React, { type ReactNode } from 'react';
 import clsx from 'clsx';
 import {
   PageMetadata,
   HtmlClassNameProvider,
   ThemeClassNames,
 } from '@docusaurus/theme-common';
-import {translateBlogAuthorsListPageTitle} from '@docusaurus/theme-common/internal';
+import { translateBlogAuthorsListPageTitle } from '@docusaurus/theme-common/internal';
 import BlogLayout from '@theme/BlogLayout';
-import type {Props} from '@theme/Blog/Pages/BlogAuthorsListPage';
+import type { Props } from '@theme/Blog/Pages/BlogAuthorsListPage';
 import SearchMetadata from '@theme/SearchMetadata';
 import Heading from '@theme/Heading';
 import Author from '@theme/Blog/Components/Author';
-import type {AuthorItemProp} from '@docusaurus/plugin-content-blog';
+import type { AuthorItemProp } from '@docusaurus/plugin-content-blog';
 import styles from './styles.module.css';
 import AcercaAutores from '../../../../components/AcercaAutores';
 
-function AuthorListItem({author}: {author: AuthorItemProp}) {
+function AuthorListItem({ author }: { author: AuthorItemProp }) {
   return (
     <li className={styles.authorListItem}>
       <Author as="h2" author={author} count={author.count} />
@@ -23,7 +23,7 @@ function AuthorListItem({author}: {author: AuthorItemProp}) {
   );
 }
 
-function AuthorsList({authors}: {authors: Props['authors']}) {
+function AuthorsList({ authors }: { authors: Props['authors'] }) {
   return (
     <section className={clsx('margin-vert--lg', styles.authorsListSection)}>
       <ul>
@@ -48,10 +48,16 @@ export default function BlogAuthorsListPage({
       )}>
       <PageMetadata title={title} />
       <SearchMetadata tag="blog_authors_list" />
-      <BlogLayout sidebar={sidebar}>
-        <Heading as="h1">Acerca</Heading>
-        <AcercaAutores />
-        <AuthorsList authors={authors} />
+      <BlogLayout>
+        <div style={{ maxWidth: 800, margin: '0 auto', padding: '2rem 1rem' }}>
+          <Heading as="h1">Acerca de la Olimpiada Michoacana</Heading>
+          <AcercaAutores />
+          <Heading as="h1">Equipo</Heading>
+          <p style={{ marginBottom: '5rem' }}>
+            Conoce a los miembros de la Olimpiada Michoacana de Matemáticas, quienes trabajan arduamente para hacer de este evento una experiencia inolvidable.
+          </p>
+          <AuthorsList authors={authors} />
+        </div>
       </BlogLayout>
     </HtmlClassNameProvider>
   );
